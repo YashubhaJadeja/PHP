@@ -19,6 +19,11 @@
 			 {
 				 echo $s['Id']."=".$s['name']."</br>";
 			 }
+			  echo"<hr/>";
+			 for($i = 0; $i < count($students); $i++) 
+			 { 
+		 echo $students[$i]['Id'] . "=" . $students[$i]['name'] . "<br/>";
+			 }
 	?>
 	 </pre>
           </body>																																																																																																																																																																																																																	
